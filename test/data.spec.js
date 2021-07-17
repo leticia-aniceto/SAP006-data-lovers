@@ -1,4 +1,4 @@
-import { filters, computeStats, characters } from '../src/data';
+import { filters, terrainArray,computeStats, characters } from '../src/data';
 
 const mockChars = [
   {
@@ -23,74 +23,56 @@ const mockChars = [
   }
 ]
 
-// const mockTerrains = [
-//   {
-//     "name": "Gondoa",
-//     "terrain": "TODO",
-//   },
-//   {
-//     "name": "Pazu's Mines",
-//     "terrain": "Hill",
-//   },
-//   {
-//     "name": "Laputa",
-//     "terrain": "City",
-//   },
-//   {
-//     "name": "Tedis",
-//     "terrain": "Hill",
-//   },
-//   {
-//     "name": "Ursula's Log Cabin",
-//     "terrain": "TODO",
-//   },
-//   {
-//     "name": "Koriko",
-//     "terrain": "Hill",
-//   },
-//   {
-//     "name": "Karikiya",
-//     "terrain": "City",
-//   },
-//   {
-//     "name": "Guchokipanya",
-//     "terrain": "Hill",
-//   }
-// ]
-
 const mockFilms = [
   {
     "title": "Castle in the Sky",
     "director": "Hayao Miyazaki",
     "release_date": "1986",
     "rt_score": "95",
+    "locations": [
+      {
+        "name": "Gondoa",
+        "terrain": "TODO",
+      },
+      {
+        "name": "Pazu's Mines",
+        "terrain": "Hill",
+      },
+      {
+        "name": "Laputa",
+        "terrain": "City",
+      },
+      {
+        "name": "Tedis",
+        "terrain": "Hill",
+      }
+    ]
   },
   {
-    "title": "Kiki's Delivery Service",
+    "title": "Kiki Delivery Service",
     "director": "Mirabel Miyazaki",
     "release_date": "1989",
     "rt_score": "96",
+    "locations": [
+      {
+        "name": "Ursula's Log Cabin",
+        "terrain": "TODO",
+      },
+      {
+        "name": "Koriko",
+        "terrain": "Hill",
+      },
+      {
+        "name": "Karikiya",
+        "terrain": "City",
+      },
+      {
+        "name": "Guchokipanya",
+        "terrain": "Hill",
+      }
+    ]
   }
 ]
-
-//sortAZ
-// describe("sort movies A to Z to be equal...", () => {
-
-// // const AZ = (a, z) => a.title > z.title ? 1 : -1;
-// // const ZA = (a, z) => a.title > z.title ? -1 : 1;
-
-//   it('should be a function', () => {
-//     expect(typeof sortAtoZ).toBe('function');
-//   });
-
-//   it('should return name of movies sorted by alphabetical order', () => {
-//     expect(sortAtoZ(mockFilms, "A-Z")).toStrictEqual([{"title": "Castle in the Sky"}, {"title": "Kiki's Delivery Service"}]);
-//   });
-
-//   it('should return name of movies sorted by decrescent alphabetical order', () => {
-//     expect(sortAtoZ(mockFilms, "Z-A")).toStrictEqual([{"title": "Kiki's Delivery Service"}, {"title": "Castle in the Sky"}]);
-//   });
-// });
 
 // release date
 describe("release date to be equal...", () => {
@@ -128,6 +110,37 @@ describe("rating should be equal...", () => {
   });
 });
 
+//sortAZ
+// describe("sort movies A to Z to be equal...", () => {
+
+// // const AZ = (a, z) => a.title > z.title ? 1 : -1;
+// // const ZA = (a, z) => a.title > z.title ? -1 : 1;
+
+//   it('should be a function', () => {
+//     expect(typeof sortAtoZ).toBe('function');
+//   });
+
+//   it('should return name of movies sorted by alphabetical order', () => {
+//     expect(sortAtoZ(mockFilms, "A-Z")).toStrictEqual([{"title": "Castle in the Sky"}, {"title": "Kiki's Delivery Service"}]);
+//   });
+
+//   it('should return name of movies sorted by decrescent alphabetical order', () => {
+//     expect(sortAtoZ(mockFilms, "Z-A")).toStrictEqual([{"title": "Kiki's Delivery Service"}, {"title": "Castle in the Sky"}]);
+//   });
+// });
+
+//terrainArray
+describe("terrain array should be equal...", () => {
+
+  it('should be a function', () => {
+    expect(typeof terrainArray).toBe('function');
+  });
+
+  it('should return "Castle in the Sky" and "Kiki Delivery Service" for "City" as selected terrain', () => {
+    expect(terrainArray(["Castle in the Sky", "Kiki Delivery Service"], "City")).toEqual([mockFilms[0], mockFilms[1]]);
+  });
+});
+
 //cálculos
 describe('computeStats', () => {
   it('is a function', () => {
@@ -145,8 +158,8 @@ describe('characters', () => {
     expect(typeof characters).toBe('function');
   });
 
-  it('oi', () => {
-    expect(characters(mockChars)).toEqual(4);
+  it('return 4 for characters length', () => {
+    expect(characters(mockChars)).toHaveLength(4);
   });
 });
 
