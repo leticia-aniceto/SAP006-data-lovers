@@ -20,8 +20,10 @@ function terrainFilter(films) {
   return hasChosen;
 }
 
-export const terrainArray = (array) =>
-  array.filter(terrainFilter);
+export const terrainArray = (array) => {
+  const arrayFilter = array.filter(terrainFilter);
+  return arrayFilter;
+};
 
 export const sortChar = (data, order) => {
   if (order === "A-Z") {
