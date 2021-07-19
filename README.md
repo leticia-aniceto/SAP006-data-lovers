@@ -47,7 +47,7 @@ Whereas 5 is the most relevant grade and 1 the least relevant grade, 43,5% of 69
 
 <p align="center">  
 ![Screenshot from 2021-06-30 19-48-46](https://user-images.githubusercontent.com/79461698/126241604-7436fa51-afd6-4d64-9303-7e5b56f24403.png)
-
+</p>
 
 ## 9. Checklist
 
