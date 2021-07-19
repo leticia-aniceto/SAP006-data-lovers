@@ -9,18 +9,16 @@ export const sortAtoZ = (data, order) => {
   }
 };
 
-function terrainFilter(films) {
-  let chosenTerrain = document.getElementById("terrain").value;
-  let hasChosen = false;
-  for (let i = 0; i < films.locations.length; i++) {
-    if (films.locations[i].terrain === chosenTerrain) {
-      hasChosen = true;
+export const terrainArray = (array, chosenTerrain) => {
+  function terrainFilter(films) {
+    let hasChosen = false;
+    for (let i = 0; i < films.locations.length; i++) {
+      if (films.locations[i].terrain === chosenTerrain) {
+        hasChosen = true;
+      }
     }
+    return hasChosen;
   }
-  return hasChosen;
-}
-
-export const terrainArray = (array) => {
   const arrayFilter = array.filter(terrainFilter);
   return arrayFilter;
 };
@@ -29,6 +27,7 @@ export const sortChar = (data, order) => {
   if (order === "A-Z") {
     return data.sort((a, z) => a.name > z.name ? 1 : -1);
   } else if (order === "Z-A") {
+    // console.log(order);
     return data.sort((a, z) => a.name > z.name ? -1 : 1);
   }
 };
@@ -42,7 +41,6 @@ export const characters = (films) => {
       peopleList.push(char);
     }
   }
-  // console.log(peopleList);
   return peopleList;
 };
 

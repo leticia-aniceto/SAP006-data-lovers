@@ -1,25 +1,29 @@
-import { filters, terrainArray,computeStats, characters } from '../src/data';
+import { filters, sortAtoZ, terrainArray, sortChar, characters, computeStats} from '../src/data';
 
 const mockChars = [
   {
-    "name": "Pazu",
-    "gender": "Male",
-    "specie": "Human"
-  },
-  {
-    "name": "Lusheeta Toel Ul Laputa",
-    "gender": "Female",
-    "specie": "Human"
-  },
-  {
-    "name": "Kiki",
-    "gender": "Female",
-    "specie": "Witch"
-  },
-  {
-    "name": "Jiji",
-    "gender": "Male",
-    "specie": "Cat"
+    people: [
+      {
+        "name": "Pazu",
+        "gender": "Male",
+        "specie": "Human"
+      },
+      {
+        "name": "Lusheeta Toel Ul Laputa",
+        "gender": "Female",
+        "specie": "Human"
+      },
+      {
+        "name": "Kiki",
+        "gender": "Female",
+        "specie": "Witch"
+      },
+      {
+        "name": "Jiji",
+        "gender": "Male",
+        "specie": "Cat"
+      }
+    ]
   }
 ]
 
@@ -32,19 +36,19 @@ const mockFilms = [
     "locations": [
       {
         "name": "Gondoa",
-        "terrain": "TODO",
+        "terrain": "TODO"
       },
       {
         "name": "Pazu's Mines",
-        "terrain": "Hill",
+        "terrain": "Hill"
       },
       {
         "name": "Laputa",
-        "terrain": "City",
+        "terrain": "City"
       },
       {
         "name": "Tedis",
-        "terrain": "Hill",
+        "terrain": "Hill"
       }
     ]
   },
@@ -56,19 +60,19 @@ const mockFilms = [
     "locations": [
       {
         "name": "Ursula's Log Cabin",
-        "terrain": "TODO",
+        "terrain": "TODO"
       },
       {
         "name": "Koriko",
-        "terrain": "Hill",
+        "terrain": "Hill"
       },
       {
         "name": "Karikiya",
-        "terrain": "City",
+        "terrain": "City"
       },
       {
         "name": "Guchokipanya",
-        "terrain": "Hill",
+        "terrain": "Hill"
       }
     ]
   }
@@ -110,24 +114,23 @@ describe("rating should be equal...", () => {
   });
 });
 
-//sortAZ
-// describe("sort movies A to Z to be equal...", () => {
+//sortAZ - rever 3º teste
+describe("sort movies A to Z to be equal...", () => {
 
-// // const AZ = (a, z) => a.title > z.title ? 1 : -1;
-// // const ZA = (a, z) => a.title > z.title ? -1 : 1;
+const sortFilms = ["Castle in the Sky", "Kiki Delivery Service"]  
 
-//   it('should be a function', () => {
-//     expect(typeof sortAtoZ).toBe('function');
-//   });
+  it('should be a function', () => {
+    expect(typeof sortAtoZ).toBe('function');
+  });
 
-//   it('should return name of movies sorted by alphabetical order', () => {
-//     expect(sortAtoZ(mockFilms, "A-Z")).toStrictEqual([{"title": "Castle in the Sky"}, {"title": "Kiki's Delivery Service"}]);
-//   });
+  it('should return name of movies sorted by alphabetical order', () => {
+    expect(sortAtoZ(sortFilms, "A-Z")).toEqual(sortFilms);
+  });
 
-//   it('should return name of movies sorted by decrescent alphabetical order', () => {
-//     expect(sortAtoZ(mockFilms, "Z-A")).toStrictEqual([{"title": "Kiki's Delivery Service"}, {"title": "Castle in the Sky"}]);
-//   });
-// });
+  it('should return name of movies sorted by decrescent alphabetical order', () => {
+    expect(sortAtoZ(sortFilms, "Z-A")).toStrictEqual(sortFilms[1], mockFilms[0]);
+  });
+});
 
 //terrainArray
 describe("terrain array should be equal...", () => {
@@ -137,18 +140,27 @@ describe("terrain array should be equal...", () => {
   });
 
   it('should return "Castle in the Sky" and "Kiki Delivery Service" for "City" as selected terrain', () => {
-    expect(terrainArray(["Castle in the Sky", "Kiki Delivery Service"], "City")).toEqual([mockFilms[0], mockFilms[1]]);
+    expect(terrainArray(mockFilms, "City")).toEqual(mockFilms);
   });
+
+  it('should return anything for "Mountain" as selected terrain', () => {
+    expect.anything();
+  });
+
 });
 
-//cálculos
-describe('computeStats', () => {
+// characters - sortChar
+describe('sortChar', () => {
   it('is a function', () => {
-    expect(typeof computeStats).toBe('function');
+    expect(typeof sortChar).toBe('function');
   });
 
-  it('se forneço array de 5, retorna o length de 5', () => {
-    expect(computeStats(["chihiro", "noface", "totoro", "kiki", "howl"])).toBe(5);
+  it('should return name of characters sorted by alphabetical order', () => {
+    expect(sortChar(mockChars, "A-Z")).toEqual(mockChars);
+  });
+
+  it('should return name of characters sorted by alphabetical order', () => {
+    expect(sortChar(mockChars, "Z-A")).toEqual(mockChars[1] > mockChars[0] ? 1 : -1);
   });
 });
 
@@ -163,13 +175,13 @@ describe('characters', () => {
   });
 });
 
-//characters - sortChar
-// describe('sortChar', () => {
-//   it('is a function', () => {
-//     expect(typeof sortChar).toBe('function');
-//   });
+//cálculos
+describe('computeStats', () => {
+  it('is a function', () => {
+    expect(typeof computeStats).toBe('function');
+  });
 
-//   it('is working for A to Z', () => {
-//     expect(sortChar(typeOf, array)).toStrictEqual();
-//   })
-// });
+  it('se forneço array de 5, retorna o length de 5', () => {
+    expect(computeStats(["chihiro", "noface", "totoro", "kiki", "howl"])).toBe(5);
+  });
+});
