@@ -37,15 +37,11 @@ Always consider that 5 is the most relevant grade and 1 the least relevant grade
 
 - 68,1% do look up the synopsis of the movie before watching it.  
 
-<p align="center">   
-  <img src="image/synopsis.png" width="50%">
-</p>
+![synopsis](https://user-images.githubusercontent.com/79461698/126393741-3a29e272-1bed-4609-a697-e6e0e3c815eb.png)
 
 - 46,3% find ranking (IMDb, Rotten Tomatos, etc) relevant.  
 
-<p align="center">   
-  <img src="image/rt-score.png" width="50%">
-</p>
+![rt-score](https://user-images.githubusercontent.com/79461698/126393805-79e3b301-a815-4549-ad7d-2e2566488424.png)
 
 - 95,7% get attached to the characters in the movies.  
 
