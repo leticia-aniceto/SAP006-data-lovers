@@ -140,7 +140,7 @@ The main objective of this project is to learn how to draw and build a web inter
 
 The skills developed in Studio Ghibli CAT:  
 
-[x] HTML and CSS;  
+[ x ] HTML and CSS;  
 [x] Use of semantic HTML;  
 [x] Use of CSS selectors;  
 [x] Build an application respecting the design made (prototype);  
