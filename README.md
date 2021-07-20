@@ -140,30 +140,30 @@ The main objective of this project is to learn how to draw and build a web inter
 
 The skills developed in Studio Ghibli CAT:  
 
-- HTML and CSS;  
-- Use of semantic HTML;  
-- Use of CSS selectors;  
-- Build an application respecting the design made (prototype);  
-- Use of CSS flexbox;  
-- DOM and Web APIs;  
-- Use of DOM selectors;  
-- DOM event management;  
-- Dynamic DOM manipulation. (appendChild | createElement | createTextNode | innerHTML | textContent | etc.);  
-- JavaScript;  
-- Use of conditionals (if-else | switch | ternary operator);  
-- Use of loops (for | for..in | for..of | while);  
-- Use of functions (parameters | arguments | return value);  
-- Manipulate arrays (filter | map | sort | reduce);  
-- Manipulate objects (key | value);  
-- Use of ES modules (import | export);  
-- Differentiate between expression and statements;  
-- Differentiate between atomic and structured data types;  
-- Testing;  
-- Unit test;  
-- Code Structure and Style Guide;   
-- Organize and divide code into modules (Modularization);  
-- Use of descriptive identifiers (Nomenclature | Semantics);  
-- Use of linter (ESLINT);   
-- Git and GitHub: Using git commands (add | commit | pull | status | push);  
-- Manage GitHub repositories (clone | fork | gh-pages);  
-- Collaboration on Github (branches | pull requests | tags).  
+[x] HTML and CSS;  
+[x] Use of semantic HTML;  
+[x] Use of CSS selectors;  
+[x] Build an application respecting the design made (prototype);  
+[x] Use of CSS flexbox;  
+[x] DOM and Web APIs;  
+[x] Use of DOM selectors;  
+[x] DOM event management;  
+[x] Dynamic DOM manipulation. (appendChild | createElement | createTextNode | innerHTML | textContent | etc.);  
+[x] JavaScript;  
+[x] Use of conditionals (if-else | switch | ternary operator);  
+[x] Use of loops (for | for..in | for..of | while);  
+[x] Use of functions (parameters | arguments | return value);  
+[x] Manipulate arrays (filter | map | sort | reduce);  
+[x] Manipulate objects (key | value);  
+[x] Use of ES modules (import | export);  
+[x] Differentiate between expression and statements;  
+[x] Differentiate between atomic and structured data types;  
+[x] Testing;  
+[x] Unit test;  
+[x] Code Structure and Style Guide;   
+[x] Organize and divide code into modules (Modularization);  
+[x] Use of descriptive identifiers (Nomenclature | Semantics);  
+[x] Use of linter (ESLINT);   
+[x] Git and GitHub: Using git commands (add | commit | pull | status | push);  
+[x] Manage GitHub repositories (clone | fork | gh-pages);  
+[x] Collaboration on Github (branches | pull requests | tags).  
