@@ -27,7 +27,6 @@ export const sortChar = (data, order) => {
   if (order === "A-Z") {
     return data.sort((a, z) => a.name > z.name ? 1 : -1);
   } else if (order === "Z-A") {
-    // console.log(order);
     return data.sort((a, z) => a.name > z.name ? -1 : 1);
   }
 };

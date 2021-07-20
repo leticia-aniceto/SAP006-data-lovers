@@ -11,19 +11,6 @@ header {
     height: 200px;
 }
 
-div#cat {
-    position:absolute;
-    z-index: 2;
-    margin: 0;
-    right: 410px;
-    bottom: 529px;
-    transform: rotate(-20deg);
-    color: #ffff;
-    font-size: 39px;
-    font-family: 'Carter One', cursive;
-    font-weight: lighter;
-}
-
 @media screen and (max-width: 800px) {
     header {
         background-image: url(https://64.media.tumblr.com/6d3eaa0491f4df8a821030bb46cefb73/1e4ee33c2f6e4ef6-8a/s1280x1920/43fd6c81251950d0840a624e4712ba1638a2b74a.gifv);
@@ -86,10 +73,18 @@ body {
     margin: 0;
 }
 
-h3{
+h3, h2, h4{
     color: white;
     font-family: 'Open Sans', sans-serif;
     align-self: center;
+    font-weight: 700;
+    color: #ffff;
+    text-decoration: none;
+    text-align: center;    
+}
+
+h4.subtitle {
+    font-size: 20px;
 }
 
 menu {
@@ -130,6 +125,7 @@ a {
     text-align: center;
     padding: 14px 16px;
 }
+
 
 a:hover {
     background-color: #111;
@@ -317,6 +313,16 @@ img {
     left: 0;
 }
 
+a#trailerLink {
+    font-family: 'Open Sans', sans-serif;
+    font-weight: 700;
+    font-size: 15px;
+    color: #ffff;
+    text-decoration: none;
+    text-align: center;
+    padding: 4px 8px;
+}
+
 button#moreInfo {
     border-radius: 10px;
     height: 30px;
@@ -391,7 +397,6 @@ p {
     font-family: 'Open Sans', sans-serif;
 }
 
-
 .filterTest {
     position: relative;
     display: inline-block;
@@ -412,4 +417,38 @@ p {
     flex-direction: row;
     flex-wrap: wrap;
     justify-content: space-evenly;
+}
+
+.infos {
+    text-align: center;
+    color: white;
+}
+
+h3.explanation {
+    text-align: justify;
+    font-weight: lighter;
+    padding: 20px 7%;
+}
+
+div#totoro, div#directors {
+    display: inline-flex;
+    justify-content: center;
+    margin: 0 20px 0 20px;                                                                                                
+}
+
+h3#intro {
+    padding: 20px 3%;
+}
+
+img#totoroImg {
+    height: 400px;
+    width: min-content;
+    border-radius: 10px;
+
+}
+
+img#directors {
+    width: max-content;
+    height: min-content;
+    border-radius: 10px;
 }
