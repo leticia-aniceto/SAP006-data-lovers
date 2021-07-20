@@ -45,7 +45,9 @@ And here are some results.
 
 Whereas 5 is the most relevant grade and 1 the least relevant grade, 43,5% of 69 interviwed people dos not find relevant to research about the director/producer of the filmes they watch.  
 
-<p align="center">  
+<p align="center">   
+  <img src="image/" width="350" title="hover text">
+  <img src="your_relative_path_here_number_2_large_name" width="350" alt="accessibility text">
 ![Screenshot from 2021-06-30 19-48-46](https://user-images.githubusercontent.com/79461698/126241604-7436fa51-afd6-4d64-9303-7e5b56f24403.png)
 </p>
 
