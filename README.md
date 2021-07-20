@@ -45,15 +45,11 @@ Always consider that 5 is the most relevant grade and 1 the least relevant grade
 
 - 95,7% get attached to the characters in the movies.  
 
-<p align="center">   
-  <img src="image/love-chars.png" width="50%">
-</p>
+![love-chars](https://user-images.githubusercontent.com/79461698/126393926-cad864c8-6125-4045-a7dd-6451c404fd1b.png)
 
 - 63,8% find relevant to know the species, gender and/or age of the characters.  
 
-<p align="center">   
-  <img src="image/gender.png" width="50%">
-</p>
+![gender](https://user-images.githubusercontent.com/79461698/126393966-006c6fb9-4338-4b19-8451-a175e79d488c.png)
 
 There is also other research made available by the project that indicates that:
 
@@ -70,19 +66,11 @@ Bringing these two surveys together and looking up to fullfil all kinds of users
 
 ## USERS STORIES
 
+
 We choose 7 users to work on our web site.
-
-<p align="center">   
-  <img src="image/user-stories1.png" width="50%">
-</p>
-
-<p align="center">   
-  <img src="image/user-stories2.png" width="50%">
-</p>
-
-<p align="center">   
-  <img src="image/user-stories3.png" width="50%">
-</p>
+![user-stories1](https://user-images.githubusercontent.com/79461698/126394027-04833c61-6b78-4590-99fd-bcb8ba5ee296.png)
+![user-stories2](https://user-images.githubusercontent.com/79461698/126394034-8492e9bf-eb4c-49f7-b742-e54e1025d127.png)
+![user-stories3](https://user-images.githubusercontent.com/79461698/126394039-8c5ab83d-513c-4916-bbdb-1a574e2ebb0a.png)
 
 On our cards, we can better understand the Studio's fans and know that there are different types of users for our page. 
 
@@ -92,32 +80,28 @@ We work on our website based on these stories to design the design.
 
 ## DESIGN
 
+
 Finally we started working on how this Catalog would looks like.
 
 This is our first low fidelity prototype hand drawn.
-<p align="center">   
-  <img src="image/prot-baixa.png" width="50%">
-</p>
+![prot-baixa](https://user-images.githubusercontent.com/79461698/126394090-ca148e1b-6776-4bd9-8f6a-913f55a3def4.png)
+
 Got to say, I know I'm not the best at hand drawing. :laughing:
 
 And bellow is how our cards should look in the front and then, flipping to the info in the back.
-<p align="center">   
-  <img src="image/prot-baixa-cards.png" width="50%">
-</p>
+![prot-baixa-cards](https://user-images.githubusercontent.com/79461698/126394179-28e8b4e1-0927-4ca3-8f4b-7d80834e3916.png)
 
 Then, hands on coding!
 Attending to our users stories, we got to the multi-page high fidelity prototype:
-<p align="center">   
-  <img src="image/prot-alta.png" width="50%">
-</p>
+![prot-alta](https://user-images.githubusercontent.com/79461698/126394194-72f87aba-866f-417f-98f4-529f5073edb5.png)
+
 With a page only for characters.
-<p align="center">   
-  <img src="image/prot-alta-chars.png" width="50%">
-</p>
+![prot-alta-chars](https://user-images.githubusercontent.com/79461698/126394230-7b0e818c-d093-436f-a843-99a7d033e568.png)
 
 GREAT! Now, we just need to make some users tests to see how it goes..
 
 ## USABILITY TESTS
+
 
 During usability tests, the problems detected were:
 - With the visibility of filters,
@@ -133,26 +117,17 @@ So, we've improved our site once again for the following work:
 
 This is how our [Studio Ghilbi Catalog](https://lethsoliveira.github.io/SAP006-data-lovers/) is working now!
 
-
-<p align="center">   
-  <img src="image/finished-page.png" width="50%">
-</p>
+![finished-page](https://user-images.githubusercontent.com/79461698/126394281-927042b1-0ee6-4d99-8660-9c36c9e7fadf.png)
 
 And then the back of the cards work just by hovering over them, to look just like that:
 The users can even click in the Trailer link to see it on Youtube!
-<p align="center">   
-  <img src="image/flip-card-film.png" width="50%">
-</p>
+![flip-card-film](https://user-images.githubusercontent.com/79461698/126394330-3c1410ad-3ace-42f5-a93e-e54f264e4259.png)
 
 The characters page is looking great too!
-<p align="center">   
-  <img src="image/finished-chars-page.png" width="50%">
-</p>
+![finished-chars-page](https://user-images.githubusercontent.com/79461698/126394393-75447b53-4f82-4bca-83fc-9529964a715a.png)
 
 With the title of the movie in the back of the card of each character to make it easy to associate them to where they belong.
-<p align="center">   
-  <img src="image/flip-chars.png" width="50%">
-</p>
+![flip-chars](https://user-images.githubusercontent.com/79461698/126394423-3b9ff09b-391e-4c73-b19d-99f8cccf7058.png)
 
 On the Info page, the user can have even more information about the Studio and find the links for getting external reference and more information!
 
