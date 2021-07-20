@@ -136,7 +136,7 @@ So, we've improved our site once again for the following work:
 ## FINISHED WEB PAGE
 
 
-This is how our [Studio Ghilbi Catalog]() is working now!
+This is how our [Studio Ghilbi Catalog](https://github.com/LethsOliveira/SAP006-data-lovers) is working now!
 
 
 <p align="center">   
