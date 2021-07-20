@@ -156,7 +156,7 @@ The characters page is looking great too!
 
 With the title of the movie in the back of the card of each character to make it easy to associate them to where they belong.
 <p align="center">   
-  <img src="image/prot-alta-chars.png" width="50%">
+  <img src="image/flip-chars.png" width="50%">
 </p>
 
 On the Info page, the user can have even more information about the Studio and find the links for getting external reference and more information!
