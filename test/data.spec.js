@@ -25,7 +25,7 @@ const mockChars = [
       }
     ]
   }
-]
+];
 
 const mockFilms = [
   {
@@ -76,7 +76,7 @@ const mockFilms = [
       }
     ]
   }
-]
+];
 
 // release date
 describe("release date to be equal...", () => {
@@ -117,18 +117,16 @@ describe("rating should be equal...", () => {
 //sortAZ - rever 3º teste
 describe("sort movies A to Z to be equal...", () => {
 
-const sortFilms = ["Castle in the Sky", "Kiki Delivery Service"]  
-
   it('should be a function', () => {
     expect(typeof sortAtoZ).toBe('function');
   });
 
   it('should return name of movies sorted by alphabetical order', () => {
-    expect(sortAtoZ(sortFilms, "A-Z")).toEqual(sortFilms);
+    expect(sortAtoZ(mockFilms, "A-Z")).toEqual(mockFilms);
   });
 
   it('should return name of movies sorted by decrescent alphabetical order', () => {
-    expect(sortAtoZ(sortFilms, "Z-A")).toStrictEqual(sortFilms[1], mockFilms[0]);
+    expect(sortAtoZ(mockFilms, "Z-A")).toStrictEqual();
   });
 });
 
@@ -146,11 +144,13 @@ describe("terrain array should be equal...", () => {
   it('should return anything for "Mountain" as selected terrain', () => {
     expect.anything();
   });
-
 });
 
-// characters - sortChar
+// characters - sortChar rever 3º teste
 describe('sortChar', () => {
+
+  // const ZA = mockChars.sort(mockChars[3].name > mockChars[0].name ? -1 : 1);
+
   it('is a function', () => {
     expect(typeof sortChar).toBe('function');
   });
@@ -159,8 +159,8 @@ describe('sortChar', () => {
     expect(sortChar(mockChars, "A-Z")).toEqual(mockChars);
   });
 
-  it('should return name of characters sorted by alphabetical order', () => {
-    expect(sortChar(mockChars, "Z-A")).toEqual(mockChars[1] > mockChars[0] ? 1 : -1);
+  it('should return name of characters sorted by decrescent alphabetical order', () => {
+    expect(sortChar(mockChars, "Z-A")).toEqual(mockChars[0], mockChars[3]);
   });
 });
 

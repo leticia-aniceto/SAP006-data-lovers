@@ -23,7 +23,8 @@ function showingCards(itens) {
         const title = film.title;
         const backYear = film.release_date;
         const backDirector = film.director;
-        const backRt = film.rt_score;               
+        const backRt = film.rt_score;
+        const backTrailer = film.trailer;               
         const elementTitle = `
     <div id="divCard" class="film">
         <div class="innerCard">
@@ -34,12 +35,10 @@ function showingCards(itens) {
                 </div>
             </div>
             <div class="backCard">
-                <p class="backText"><i class="material-icons">event</i> Release Year: ${backYear}</p>
-                <p class="backText"><i class="material-icons">face</i> Director: ${backDirector}</p>
-                <p class="backText"><i class="material-icons">star_rate</i> Rating Score: ${backRt}</p>
-               <!--- <div id="popupDiv">
-                    <button onclick="createPopup()" class="backText" id="moreInfo">CLICK FOR MORE</button>
-                </div> -->
+                <p class="backText"><i class="far fa-calendar-alt fa-lg"></i> Release Year: ${backYear}</p>
+                <p class="backText"><i class="far fa-smile fa-lg"></i> Director: ${backDirector}</p>
+                <p class="backText"><i class="far fa-star fa-lg"></i> Rating Score: ${backRt}</p>
+                <p class="backText"><i class="fas fa-film fa-lg"></i> Trailer: <a id="trailerLink" href="${backTrailer}" target="_blank"> Click here!</a></p>
             </div>
         </div>
     </div>`;
