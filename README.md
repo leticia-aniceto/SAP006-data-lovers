@@ -140,16 +140,18 @@ The main objective of this project is to learn how to draw and build a web inter
 
 The skills developed in Studio Ghibli CAT:  
 
-- [x] HTML and CSS;  
+### HTML and CSS  
 - [x] Use of semantic HTML;  
 - [x] Use of CSS selectors;  
 - [x] Build an application respecting the design made (prototype);  
-- [x] Use of CSS flexbox;  
-- [x] DOM and Web APIs;  
+- [x] Use of CSS flexbox.  
+
+### DOM and Web APIs  
 - [x] Use of DOM selectors;  
 - [x] DOM event management;  
-- [x] Dynamic DOM manipulation. (appendChild | createElement | createTextNode | innerHTML | textContent | etc.);  
-- [x] JavaScript;  
+- [x] Dynamic DOM manipulation. (appendChild | createElement | createTextNode | innerHTML | textContent | etc.).  
+
+### JavaScript  
 - [x] Use of conditionals (if-else | switch | ternary operator);  
 - [x] Use of loops (for | for..in | for..of | while);  
 - [x] Use of functions (parameters | arguments | return value);  
@@ -157,13 +159,17 @@ The skills developed in Studio Ghibli CAT:
 - [x] Manipulate objects (key | value);  
 - [x] Use of ES modules (import | export);  
 - [x] Differentiate between expression and statements;  
-- [x] Differentiate between atomic and structured data types;  
-- [x] Testing;  
-- [x] Unit test;  
-- [x] Code Structure and Style Guide;   
+- [x] Differentiate between atomic and structured data types.  
+
+### Testing  
+- [x] Unit test  
+
+### Code Structure and Style Guide   
 - [x] Organize and divide code into modules (Modularization);  
 - [x] Use of descriptive identifiers (Nomenclature | Semantics);  
-- [x] Use of linter (ESLINT);   
-- [x] Git and GitHub: Using git commands (add | commit | pull | status | push);  
+- [x] Use of linter (ESLINT).   
+
+### Git and GitHub
+- [x] Using git commands (add | commit | pull | status | push);  
 - [x] Manage GitHub repositories (clone | fork | gh-pages);  
 - [x] Collaboration on Github (branches | pull requests | tags).  
