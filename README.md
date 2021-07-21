@@ -1,7 +1,7 @@
 # STUDIO GHIBLI CAT
 
 
-This Studio Ghibli Catalog was developed by me, Leths Oliveira and my study partner, [Letícia Aniceto](https://github.com/leticia-aniceto) as part of the second project of the Bootcamp of [Laboratoria Brazil](https://www.laboratoria.la/br) Class 06!  
+This Studio Ghibli Catalog was developed by me, Letícia Aniceto and my study partner, [Letícia Aniceto](https://github.com/LethsOliveira) as part of the second project of the Bootcamp of [Laboratoria Brazil](https://www.laboratoria.la/br) Class 06!  
 
 The project challenge was to create a web page containing info about Studio Ghibli (which thematic was choosen by us) working with a data base and filtering all the information into something easier to the user to sort it.  
 
@@ -86,7 +86,7 @@ Finally, we started working on how this Catalog would looks like.
 This is our first low fidelity prototype hand drawn.  
 ![prot-baixa](https://user-images.githubusercontent.com/79461698/126394090-ca148e1b-6776-4bd9-8f6a-913f55a3def4.png)
 
-Got to say, I know I'm not the best at hand drawing. :laughing:  
+Got to say, we know we are not the best at hand drawing. :laughing:  
 
 And bellow is how our cards should look in the front and then, flipping to the info in the back.  
 ![prot-baixa-cards](https://user-images.githubusercontent.com/79461698/126394179-28e8b4e1-0927-4ca3-8f4b-7d80834e3916.png)
