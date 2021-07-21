@@ -67,7 +67,7 @@ Bringing these two surveys together and looking up to fullfil all kinds of users
 ## USERS STORIES  
 
 
-We choose 7 users to work on our web site.  
+We chose 7 users to work on our web site:  
 ![user-stories1](https://user-images.githubusercontent.com/79461698/126394027-04833c61-6b78-4590-99fd-bcb8ba5ee296.png)  
 ![user-stories2](https://user-images.githubusercontent.com/79461698/126394034-8492e9bf-eb4c-49f7-b742-e54e1025d127.png)  
 ![user-stories3](https://user-images.githubusercontent.com/79461698/126394039-8c5ab83d-513c-4916-bbdb-1a574e2ebb0a.png)  
@@ -81,7 +81,7 @@ We work on our website based on these stories to design the design.
 ## DESIGN  
 
 
-Finally we started working on how this Catalog would looks like.  
+Finally, we started working on how this Catalog would looks like.  
 
 This is our first low fidelity prototype hand drawn.  
 ![prot-baixa](https://user-images.githubusercontent.com/79461698/126394090-ca148e1b-6776-4bd9-8f6a-913f55a3def4.png)
@@ -98,7 +98,7 @@ Attending to our users stories, we got to the multi-page high fidelity prototype
 With a page only for characters.  
 ![prot-alta-chars](https://user-images.githubusercontent.com/79461698/126394230-7b0e818c-d093-436f-a843-99a7d033e568.png)
 
-GREAT! Now, we just need to make some users tests to see how it goes..  
+GREAT! Now, we just need to make some users tests to see how it goes...  
 
 ## USABILITY TESTS  
 
@@ -110,7 +110,7 @@ During usability tests, the problems detected were:
 - How many characters were part of the Ghilbi world,  
 - The need to use the site on other electronic devices.  
 
-So, we've improved our site once again for the following work:  
+So, we've improved our site once again for the following work.  
 
 ## FINISHED WEB PAGE  
 
